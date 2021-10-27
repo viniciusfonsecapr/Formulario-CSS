@@ -1,3 +1,4 @@
 # Formulario + CSS para o Desafio 1 CSS - CodeClub ✔
 Este formulario foi feito para o Desafio 1 CSS no curso da CodeClub, com o objetivo de aprender e praticar o uso de CSS Styles, uso de tags diferentes para obter resultados similares, e estimular a nós a ter uma mente mais ativa e proativa, buscando e indo atras de modos de como fazer e executar no nosso formulario. 
-<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/ZY3W96Mvat8EFTCclA" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/css-html-web-designer-quotes-ZY3W96Mvat8EFTCclA">via GIPHY</a></p>
+
+https://media.giphy.com/media/xT4Apo7AplrgF9ABzy/giphy.gif
