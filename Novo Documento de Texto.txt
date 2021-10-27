@@ -1,0 +1,15 @@
+[x] Retirar todas as tags <br> e manter o layout sem alteraçãos visuais 
+
+[x] Tirar o fildset e manter o layout sem alterações visuais
+
+	-Ao passar o mouse sobre os botões de Limpar e Enivar dados 
+[x] Trocar a cor de fundo
+[x] Aumentar o botão 
+[x] Trocar a cor da letra 
+[x] Trocar a cor da borda 
+[x] O cursor terá que ser o da "maozinha" 
+
+[x]Altere cores da borda de todos os inputs 
+[x] ALterar a fonte do projeto para "Nunito"
+[x] Alterar o background do formulario 
+[x] Alterar a cor e tamanho dos textos dos Labels 

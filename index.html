@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo Desafio HTML</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h1>CADASTRO DO MC DONALDS</h1>
+        <form action="" method="POST" enctype="multipart/form-data">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" required placeholder="DIGITE SEU NOME">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required placeholder="DIGITE SEU EMAIL">
+
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade" min="12" id="idade" required placeholder="SUA IDADE">
+
+            <label for="data-nasc">Data de Nascimento:</label>
+            <input type="date" name="datanasc" id="data-nasc" required placeholder="DATA DE NASCIMENTO">
+
+            <label for="redes-sociais">Onde você possuir conta:</label>
+            <input type="checkbox" name="redes-socias"> Instagram
+            <input type="checkbox" name="redes-socias"> Facebook
+            <input type="checkbox" name="redes-socias"> Youtube
+
+            <label for="sexo" id="sex">Sexo:</label>
+            <input type="radio" name="opcaosexo" id="sexo"> Masculino
+            <input type="radio" name="opcaosexo" id="sexo"> Feminimo
+
+            <label for="olhos">Cor dos Olhos:
+                <input type="color" name="cor-olhos" id="olhos">
+            </label>
+
+            <label for="bio">Biografia:</label>
+            <textarea name="bio" id="bio"></textarea>
+
+            <label for="foto-perfil">Foto do Perfil:</label>
+            <input type="file" accept="image/*" name="fotoperfil" id="foto-perfil" required>
+
+            <label for="tel">Telefone:</label>
+            <input type="tel" name="telefone" id="tel" required placeholder="DIGITE SEU TELEFONE">
+
+            <label for="linkperf">Link do Perfil do Facebook:</label>
+            <input type="url" name="linkfacebook" id="linkperf" placeholder="LINK DO PERFIL DO FACEBOOK">
+
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" minlength="6" maxlength="8" id="senha" required placeholder="DIGITE SUA SENHA">
+            <button type="reset" name="reset" id="botão-limpar">Limpar</button>
+            <button type="submit" name="enviar" id="botão-enviar">Enviar dados</button>
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>

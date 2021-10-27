@@ -1,0 +1,99 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background: #55F6C8;
+    background: -webkit-linear-gradient(bottom, #55F6C8, #EBF05E);
+    background: -moz-linear-gradient(bottom, #55F6C8, #EBF05E);
+    background: linear-gradient(to top, #55F6C8, #EBF05E);
+}
+div{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+}
+h1 {
+    font-size: 25px;
+    color: #097A7A;
+    text-align:left;
+}
+
+label { 
+    display: block;
+    margin-bottom: 15px;
+    color: #8B0000;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+input {
+    border-color: #0DBABA;
+   
+}
+textarea {
+    border-color: #0DBABA;
+}
+#nome, #email, #idade {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#data-nasc, textarea, #foto-perfil, #tel, #linkperf, #senha {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#olhos {
+    margin-top: 15px;
+}
+
+#sex {
+    margin-top: 10px;
+}
+#linkperf { 
+    width: 200px;
+}
+
+#botão-limpar {
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+}
+
+#botão-enviar {
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+#botão-limpar:hover {
+    cursor: pointer;
+    color: #00FFFF;
+    border-color: #00FFFF;
+    width: 200px;
+    height: 70px;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 29px 23px 13px 0px rgba(70,130,180,0.47); 
+box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 29px 23px 13px 0px rgba(70,130,180,0.47);
+background: #1C6EA4;
+
+}
+
+
+#botão-enviar:hover {
+    cursor: pointer;
+    color: #00FFFF;
+    border-color: #00FFFF;
+    width: 200px;
+    height: 70px;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 29px 23px 13px 0px rgba(70,130,180,0.47); 
+box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 29px 23px 13px 0px rgba(70,130,180,0.47);
+background: #1C6EA4;
+}
